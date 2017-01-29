@@ -8,6 +8,12 @@ One of the following:
 - `yarn add @commander-lol/redux-reducer`
 - `ied i -S @commander-lol/redux-reducer`
 
+## Why?
+
+redux-reducer strips out the common boilerplate used to determine what actions to take when a reducer is run, and allows
+you to programmatically compose a reducer at runtime. It also handles the default case for you, saving potentially hours
+of bug hunting when you overlook it.
+
 ## Usage
 
 When you're writing reducers for Redux, you probably have something similar to the following:
