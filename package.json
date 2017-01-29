@@ -1,0 +1,9 @@
+{
+  "name": "@commander-lol/redux-reducer",
+  "version": "1.0.0",
+  "description": "Remove the boilerplate for creating redux reducers",
+  "main": "index.js",
+  "repository": {},
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "BSD-2-Clause"
+}
