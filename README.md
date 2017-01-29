@@ -10,7 +10,7 @@ One of the following:
 
 ## Why?
 
-redux-reducer strips out the common boilerplate used to determine what actions to take when a reducer is run, and allows
+redux-reducer strips out the common boilerplate used to determine what actions to take when a reducer is run, as well as allowing
 you to programmatically compose a reducer at runtime. It also handles the default case for you, saving potentially hours
 of bug hunting when you overlook it.
 
