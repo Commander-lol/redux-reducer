@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Remove the boilerplate for creating redux reducers",
   "main": "index.js",
-  "repository": {},
   "author": "Louis Capitanchik <contact@louiscap.co>",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "redux",
+    "reducer",
+    "utils",
+    "utility"
+  ],
+  "repository": "git@github.com:Commander-lol/redux-reducer.git"
 }
