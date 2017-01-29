@@ -1,8 +1,9 @@
-module.exports = function(initial, handlers) {
-    return function(state = initial, {type, ...action}) {
-        if (handlers.hasOwnProperty(type)) {
-            return handlers[type](state, action)
-        }
-        return state
-    }
+module.exports = function (initial, handlers) {
+	return function (state, action) {
+		if (state == null) state = initial
+		if (handlers.hasOwnProperty(action.type)) {
+			return handlers[action.type](state, action)
+		}
+		return state
+	}
 }

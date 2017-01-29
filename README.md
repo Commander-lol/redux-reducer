@@ -73,4 +73,4 @@ The library exports a single function that returns a redux-compatible reducer fu
 
 ``` reducer(initial: Object, handlers: Map<string, Handler>) ```
 
-Where initial is the `initial` router state and `handlers` is a string -> function map of action types to action reducers. Each handler is passed `state` and `action` as parameters, which correspond to the assigned reducer state and the current action (without the `type` property) and should return the new version of state after resolving the action. Simple as that. 
+Where initial is the `initial` router state and `handlers` is a string -> function map of action types to action reducers. Each handler is passed `state` and `action` as parameters, which correspond to the assigned reducer state and the current action and should return the new version of state after resolving the action. Simple as that.
